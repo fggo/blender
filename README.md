@@ -63,15 +63,15 @@ The higher channel # has higher priority. Exception is channel 0 which has the h
 
 # Mixing multiple video resolutions
 1. differing resolutions: resolution set to higher one
-  import two videos && click the strip with bigger resolution - Strip - "set render size"
-  then the images of the smaller resolution will look distorted
-  to resolve it, click the strip, on the right side panel click "Image Offset" in Strip Input and adjust x and y.
-  To avoid empty space created by this result, you can use transform script to zoom it.
-  Click strip - Add - Effect Strip - Transform
-  Right click the original and hide: Strip - Mute Strips(H)
-  Select the newly created Transform Strip - look at properties of Transform - Uniform Scale.
-  Now It's all set. Lastly you can cut the highest priority strip. e.g. from 6:00 ~ 12:00 out of 12-min video, by selecting
-  all three(including the muted) - Left Click time line to be cut - Click Shift +K - Select the cut part - Click x to erase
+  - import two videos && click the strip with bigger resolution - Strip - "set render size"
+  - then the images of the smaller resolution will look distorted
+  - to resolve it, click the strip, on the right side panel click "Image Offset" in Strip Input and adjust x and y.
+  - To avoid empty space created by this result, you can use transform script to zoom it.
+  - Click strip - Add - Effect Strip - Transform
+  - Right click the original and hide: Strip - Mute Strips(H)
+  - Select the newly created Transform Strip - look at properties of Transform - Uniform Scale.
+  - Now It's all set. Lastly you can cut the highest priority strip. e.g. from 6:00 ~ 12:00 out of 12-min video, by selecting
+  - all three(including the muted) - Left Click time line to be cut - Click Shift +K - Select the cut part - Click x to erase
 2. differing frame rates: ffmpeg
 [ffmpeg documentation](https://www.ffmpeg.org/ffmpeg.html) check [issue](https://stackoverflow.com/questions/32931685/the-encoder-aac-is-experimental-but-experimental-codecs-are-not-enabled) 
 ```
