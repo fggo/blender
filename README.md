@@ -1,3 +1,4 @@
+* [0. Installation](#installation)
 * [1. Setting defaults](#setting-defaults)
 * [2. Import video](#import-video)
 * [3. Video sequencer & rendering](#video-sequencer-rendering)
@@ -5,6 +6,13 @@
 * [5. How Channels work](#how-channels-work)
 * [6. Mixing multiple video resolutions](#mixing-multiple-video-resolutions)
 * [7. Preview Performance Boost - Video Proxy](#preview-performance-boost-video-proxy)
+
+# Installation
+```
+sudo add-apt-repository ppa:thomas-schiex/blender
+sudo apt-get update
+sudo apt-get install blender
+```
 
 # Setting defaults
 Video Editing
@@ -71,3 +79,4 @@ ffmpeg -i Shooting\ Stars\ -\ Bridge.mp4 -strict -2 -r 29.97 Shooting\ Stars\ -\
 ```
 
 # Preview Performance Boost-Video Proxy
+
